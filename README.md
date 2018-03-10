@@ -1,2 +1,3 @@
-# laravel_blog
-I'm lerning the Laravel framework
+# Basic blog using Laravel
+
+I'm using the Laracasts video series to lern how to use Laravel and start making better projects
