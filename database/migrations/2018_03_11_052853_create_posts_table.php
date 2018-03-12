@@ -6,11 +6,6 @@ use Illuminate\Database\Migrations\Migration;
 
 class CreatePostsTable extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
     public function up()
     {
         if(!Schema::hasTable('posts')){
@@ -22,15 +17,10 @@ class CreatePostsTable extends Migration
                 $table->string('category');
                 $table->string('author');
                 $table->timestamps();
-            });   
+            });
         }
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
     public function down()
     {
         Schema::dropIfExists('posts');
